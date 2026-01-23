@@ -1,23 +1,10 @@
 <!doctype html>
 <html lang="pt-BR">
   <head>
+    <!-- Meta Tags -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./favicon.ico" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
-    <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
+    <title>Coffeeshop Triple Peaks</title>
     <meta
       name="description"
       content="Descubra o melhor café na Coffeeshop, um espaço para encontros, eventos e experiências únicas em um ambiente acolhedor."
@@ -27,12 +14,72 @@
       content="café, educação, encontros, eventos, experiência"
     />
     <meta name="author" content="Gabriela Spitzer" />
-    <title>Café, Encontros e Eventos</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
   </head>
+
   <body>
     <div class="page">
-      Teste
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Logotipo da Coffeeshop Triple Peaks"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a href="#" class="nav__link">Receitas</a>
+            </li>
+            <li>
+              <a href="#" class="nav__link">Reservar uma mesa</a>
+            </li>
+            <li>
+              <a href="#" class="nav__link">Contatos</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">Café especial</span>
+          <span class="header__title-line">na biblioteca Triple Peaks</span>
+        </h1>
+        <p class="header__description">
+          Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
+          você e vibrações aconchegantes para soltar a criatividade.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="Imagem do interior da coffeeshop"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <div class="header__hours">
+            <p class="header__hours-title">Horários:</p>
+            <ul class="header__hours-list">
+              <li class="header__hours-item">
+                Segunda a sexta (10:00 - 19:00)
+              </li>
+              <li class="header__hours-item">
+                Sábado a domingo (11:00 - 18:00)
+              </li>
+            </ul>
+          </div>
+          <p class="header__paragraph">
+            200 Success Avenue, a cidade de Triple Peaks
+          </p>
+        </div>
+      </header>
       <main class="content">
         <section class="recipes"></section>
         <section class="reservation"></section>
