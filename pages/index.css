@@ -19,7 +19,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 30px 80px 40px 30px;
+  padding: 30px 80px 40px 80px;
   max-height: 800px;
   min-height: 720px;
   height: 100vh;
@@ -59,12 +59,11 @@
 .header__title {
   max-width: 709px;
   margin-top: 183px;
-  margin-left: 80px;
 }
 
 .header__span-accent {
   display: block;
-  font-family: "Noto-serif", "Times New";
+  font-family: "Noto serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 58px;
@@ -85,8 +84,7 @@
 .header__description {
   max-width: 683px;
   margin-top: 28px;
-  margin-left: 80px;
-  font-family: "Noto-serif", "Times New Roman", serif;
+  font-family: "Noto serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -129,4 +127,61 @@
   font-weight: 500;
   font-size: 16px;
   color: #838383;
+  text-align: right;
+}
+
+.recipes {
+  background-color: #0a2750;
+  background-image: url(../images/background_recipes.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 80px 215px;
+}
+
+.recipes__title {
+  max-width: 580px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #ffffff;
+}
+
+.recipes__subtitle {
+  max-width: 438px;
+  font-family: "Noto serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-top: 24px;
+}
+
+.recipes__videos {
+  margin-top: 80px;
+  display: flex;
+  column-gap: 40px;
+  max-width: 1000px;
+  margin: 80px auto 0;
+}
+
+.recipes__iframe {
+  width: 480px;
+  height: 273px;
+  border: none;
+}
+
+.recipes__video-caption {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
 }
