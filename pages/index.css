@@ -14,6 +14,8 @@
   background-color: #ffffff;
 }
 
+/* header styles */
+
 .header {
   background-image: url(../images/background_header.svg);
   background-position: center;
@@ -118,18 +120,15 @@
   color: #838383;
 }
 
-.header__hours-list {
-  list-style-type: none;
-}
-
 .header__paragraph {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   color: #838383;
-  text-align: right;
 }
+
+/* section recipes styles */
 
 .recipes {
   background-color: #0a2750;
