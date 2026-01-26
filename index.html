@@ -31,6 +31,7 @@
 
   <body>
     <div class="page">
+      <!-- Header -->
       <header class="header">
         <nav class="nav">
           <img
@@ -75,6 +76,7 @@
         </div>
       </header>
       <main class="content">
+        <!-- Recipes Section -->
         <section id="recipes" class="recipes">
           <h2 class="recipes__title">Receitas</h2>
           <p class="recipes__subtitle">
@@ -127,8 +129,64 @@
             </div>
           </div>
         </section>
-        <section id="reservation" class="reservation"></section>
+
+        <!-- Reservation Section -->
+        <section id="reservation" class="reservation">
+          <h2 class="reservation__title">Reservar uma mesa</h2>
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">Nome *</label>
+              <input
+                type="text"
+                id="name"
+                class="form__input"
+                placeholder="Nome"
+                required
+                name="name"
+              />
+              <label class="form__label" for="convidados"
+                >Número de convidados *</label
+              >
+              <input
+                type="number"
+                min="1"
+                max="8"
+                id="convidados"
+                class="form__input"
+                placeholder="1-8"
+                required
+                name="convidados"
+              />
+              <label class="form__label" for="date">Data e hora *</label>
+              <input
+                type="datetime-local"
+                id="date"
+                class="form__input"
+                required
+                name="date"
+              />
+              <label class="form__label" for="email">Seu email *</label>
+              <input
+                type="email"
+                id="email"
+                class="form__input"
+                placeholder="email@email.com"
+                required
+                name="email"
+              />
+              <button type="submit" class="form__button">
+                Reservar uma mesa
+              </button>
+              <label class="form__checkbox">
+                <input type="checkbox" class="form__checkbox-input" required />
+                Eu concordo com os termos de uso
+              </label>
+            </fieldset>
+          </form>
+        </section>
       </main>
+
+      <!-- Footer Section -->
       <footer class="footer"></footer>
     </div>
   </body>
